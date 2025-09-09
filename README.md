@@ -1,24 +1,21 @@
 # JavaScript Refresher
 
-This repo is my **JavaScript refresher hub** — where I’m revisiting core JS concepts to strengthen my foundation before diving deeper into **TypeScript, React, and Node**.
+This repo is my **JavaScript refresher hub** — where I’m revisiting core concepts to strengthen my foundation before moving deeper into **TypeScript, React, and Node.js**.
 
 ## 📚 What’s Inside
-
--   **Notes** → Short markdown files explaining concepts in my own words
--   **Exercises** → Small code snippets for practice
--   **Mini-Projects** → Simple but complete JavaScript projects (e.g., CLI apps, API demos)
+- **Notes** → Markdown files explaining concepts in my own words  
+- **Exercises** → Small code snippets for hands-on practice  
+- **Mini-Projects** → Simple but complete JavaScript projects (e.g., CLI apps, API demos)  
 
 ## 🎯 Topics Covered
-
--   ES6+ Syntax (let/const, template literals, destructuring, spread/rest)
--   Functions (arrow functions, default params, higher-order functions)
--   Async Programming (Promises, async/await, fetch)
--   Arrays & Objects (map, filter, reduce, immutability)
--   Modules & Imports
--   Classes & OOP
--   Error Handling
--   JS in Browser & Node Context
+- ES6+ Syntax (let/const, template literals, destructuring, spread/rest)  
+- Functions (arrow functions, default params, higher-order functions)  
+- Async Programming (Promises, async/await, fetch)  
+- Arrays & Objects (map, filter, reduce, immutability)  
+- Modules & Imports  
+- Classes & OOP  
+- Error Handling  
+- JavaScript in Browser & Node.js contexts  
 
 ## 🚀 Goal
-
-By the end of this refresher, I’ll have a solid JavaScript foundation that makes **TypeScript, React, and Node development smoother** — and real-world projects easier to build.
+Build a **solid JavaScript foundation** that makes working with **TypeScript, React, and Node.js smoother** — and enables me to create real-world projects with confidence.
