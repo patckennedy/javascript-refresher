@@ -1,6 +1,6 @@
 # JavaScript Refresher
 
-This repo is my **JavaScript refresher hub** — where I’m revisiting core concepts to strengthen my foundation before moving deeper into **TypeScript, React, and Node.js**.
+This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
 ## 📚 What’s Inside
 - **Notes** → Markdown files explaining concepts in my own words  
