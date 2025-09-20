@@ -61,12 +61,23 @@ a = b;
 console.log(a); // 200 (but b stays 200 too — they are separate)
 ```
 
-#### 🚦 JavaScript Engine Steps.
+#### 🛠 JavaScript Engine Steps
 
 When JS sees a line of code, it does:
 
--   Tokenizing → breaks code into small pieces (words, symbols)
--   Parsing → builds a blueprint (syntax tree)
--   Interpreting → runs the code line by line
+-   **Tokenizing** → breaks code into small pieces (words, symbols)
+-   **Parsing** → builds a blueprint (syntax tree)
+-   **Interpreting** → runs the code line by line
 
-    Memory Hook: “Read → Understand → Do.”
+**Memory Hook:** **Read → Understand → Do**
+
+### 🧠 Key Challenges
+
+-   Visualizing how stack vs heap memory works.
+-   Remembering that objects/arrays are **references** — changing one affects the original.
+-   Getting used to `const` meaning the reference is fixed, but the contents can still change.
+
+### ✅ My Takeaway
+
+Strengthened my understanding of variable behavior, especially how primitives are copied by value and reference types point to the same memory location.  
+This will help me avoid subtle bugs when working with objects and arrays.
