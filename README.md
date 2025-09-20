@@ -101,13 +101,26 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 </details>
 
 <details>
-<summary>🎯 Interview Preparation</summary>
+<summary>🏗 Real-World Capstone Project — ✅ Chosen: Smart Shopping Cart with Discounts</summary>
 
-- [ ] JavaScript Core Concepts Review  
-- [ ] Common Pitfalls & Best Practices  
-- [ ] Mock Interview Questions  
+**Goal:** Build a production-style shopping cart that handles real pricing rules (tax, discounts, promos), persists state, and feels like a lightweight e-commerce flow.
 
+**Stack:** Start with Vanilla JS (HTML/CSS/JS). Optional Phase 2: React.
+
+### Roadmap (MVP → Plus)
+- [ ] MVP spec & data model
+- [ ] UI: product list + cart panel
+- [ ] Cart: add/remove/update quantity
+- [ ] Pricing: subtotal, discounts, tax, total
+- [ ] Persistence: save cart to localStorage
+- [ ] Error states & edge cases
+- [ ] Docs + demo GIF + deploy
+- [ ] (Plus) Coupons, tiered promos, free-shipping logic
+- [ ] (Plus) React refactor with components/state
+
+**Folder:** `capstone/shopping-cart/`  
 </details>
+
 
 
 ## 🚀 Goal
