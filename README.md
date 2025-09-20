@@ -4,6 +4,14 @@
 
 This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
+## 🛠 How I Use This Repo
+- Write my own notes in **notes/** for each topic.
+- Create small practice files in **exercises/** as I review concepts.
+- Build mini-projects in **mini-projects/** to apply what I’ve learned.
+- Work on one **real-world capstone project** inside **capstone/** to bring everything together.
+- Update the checklist below as I make progress.
+
+
 ## 📚 What’s Inside
 - **Notes** → Markdown files explaining concepts in my own words  
 - **Exercises** → Small code snippets for hands-on practice  
