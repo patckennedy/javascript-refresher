@@ -1,5 +1,7 @@
 # JavaScript Refresher
 
+![Progress](https://img.shields.io/badge/Progress-2%2F40-green)
+
 This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
 ## 📚 What’s Inside
@@ -15,10 +17,10 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 ---
 
 <details>
-<summary>🟢 Core JavaScript Foundations</summary>
+<summary>🟢 Core JavaScript Foundations - (In progress)</summary>
 
-- [ ] Introduction to JavaScript & Setting Up Environments  
-- [ ] Variables & Data Types  
+- [x] Introduction to JavaScript & Setting Up Environments  
+- [x] Variables & Data Types  
 - [ ] Operators & Expressions  
 - [ ] Control Flow (if/else, switch)  
 - [ ] Loops & Iterations (for, while, for...of)  
