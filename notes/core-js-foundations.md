@@ -79,5 +79,4 @@ When JS sees a line of code, it does:
 
 ### ✅ My Takeaway
 
-Strengthened my understanding of variable behavior, especially how primitives are copied by value and reference types point to the same memory location.  
-This will help me avoid subtle bugs when working with objects and arrays.
+Strengthened my understanding of variable behavior, especially how primitives are copied by value and reference types point to the same memory location. This will help me avoid subtle bugs when working with objects and arrays.
