@@ -32,7 +32,6 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 - [ ] Operators & Expressions  
 - [ ] Control Flow (if/else, switch)  
 - [ ] Loops & Iterations (for, while, for...of)  
-📄 **[View Notes](./notes/core-js-foundations.md)**
 
 </details>
 
@@ -130,7 +129,7 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 **Folder:** `capstone/shopping-cart/`  
 </details>
 
-
+📄 **[View Notes](./notes/README.md)**
 
 ## 🚀 Goal
 Build a **solid JavaScript foundation** that makes working with **TypeScript, React, and Node.js smoother** — and enables me to create real-world projects with confidence.
