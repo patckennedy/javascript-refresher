@@ -32,7 +32,8 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 - [ ] Operators & Expressions  
 - [ ] Control Flow (if/else, switch)  
 - [ ] Loops & Iterations (for, while, for...of)  
-📄 **[View Notes](notes/01-core-foundations.md)**
+📄 **[View Notes](./notes/core-js-foundations.md)**
+
 </details>
 
 <details>
