@@ -29,9 +29,9 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 
 - [x] Introduction to JavaScript & Setting Up Environments  
 - [x] Variables & Data Types  
-- [ ] Operators & Expressions  
-- [ ] Control Flow (if/else, switch)  
-- [ ] Loops & Iterations (for, while, for...of)  
+- [x] Operators & Expressions  
+- [x] Control Flow (if/else, switch)  
+- [x] Loops & Iterations (for, while, for...of)  
 
 </details>
 
