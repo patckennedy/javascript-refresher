@@ -1,6 +1,6 @@
 # JavaScript Refresher
 
-![Progress](https://img.shields.io/badge/Progress-2%2F40-green)
+![Progress](https://img.shields.io/badge/Progress-5%2F40-green)
 
 This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
@@ -25,7 +25,7 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 ---
 
 <details>
-<summary>🟢 Core JavaScript Foundations - (In progress)</summary>
+<summary>🟢 Core JavaScript Foundations - (Completed)</summary>
 
 - [x] Introduction to JavaScript & Setting Up Environments  
 - [x] Variables & Data Types  
@@ -36,7 +36,7 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 </details>
 
 <details>
-<summary>⚡ Functions & Execution</summary>
+<summary>⚡ Functions & Execution (In progress)</summary>
 
 - [ ] Functions (declaration, expression, arrow functions)  
 - [ ] Execution Context (Call Stack)  
@@ -129,7 +129,9 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 **Folder:** `capstone/shopping-cart/`  
 </details>
 
-📄 **[View Notes](./notes/README.md)**
+- 📄 **[View Notes](./notes/README.md)**
+
+
 
 ## 🚀 Goal
 Build a **solid JavaScript foundation** that makes working with **TypeScript, React, and Node.js smoother** — and enables me to create real-world projects with confidence.
