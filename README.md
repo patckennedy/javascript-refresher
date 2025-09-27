@@ -130,7 +130,7 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 </details>
 
 - 📄 **[View Notes](./notes/README.md)**
-
+- 🧩 [View Mini-Projects](./mini-projects/README.md)
 
 
 ## 🚀 Goal
