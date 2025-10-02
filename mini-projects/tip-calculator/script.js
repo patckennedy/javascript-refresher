@@ -2,4 +2,11 @@
 
 function tipCalculator(bill, tipPrecent) {
  if (isNaN(bill) || isNaN(tipPrecent) || bill < 0 || tipPrecent < 0) return NaN;
+ const tip = bill * (tipPrecent / 100);
+ const total = bill + tip;
+ return { tip, total };
 }
+
+// UI
+
+
