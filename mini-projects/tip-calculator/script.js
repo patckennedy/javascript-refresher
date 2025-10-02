@@ -8,5 +8,8 @@ function tipCalculator(bill, tipPrecent) {
 }
 
 // UI
-
+const billInput = document.getElementById('bill');
+const tipPercentInput = document.getElementById('tipPercent');
+const calculateButton = document.getElementById("calculate");
+const result = document.getElementById("result");
 
