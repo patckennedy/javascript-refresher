@@ -23,4 +23,8 @@ calculateButton.addEventListener('click', function () {
         result.textContent = 'Please enter valid positive numbers.';
         return;
     }
+
+    result.textContent = `Tip: $${values.tip.toFixed(
+        2
+    )} | Total: $${values.total.toFixed(2)}`;
 });
