@@ -17,4 +17,10 @@ const result = document.getElementById('result');
 calculateButton.addEventListener('click', function () {
     const bill = Number(billInput.value);
     const tipPercent = Number(tipPercentInput.value);
+
+    const values = tipCalculator(bill, tipPercent);
+    if (Number.isNaN(values)) {
+        result.textContent = 'Please enter valid positive numbers.';
+        return;
+    }
 });
