@@ -36,19 +36,19 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 </details>
 
 <details>
-<summary>⚡ Functions & Execution (In progress)</summary>
+<summary>⚡ Functions & Execution - (Completed)</summary>
 
-- [ ] Functions (declaration, expression, arrow functions)  
-- [ ] Execution Context (Call Stack)  
-- [ ] Hoisting & Temporal Dead Zone  
-- [ ] Scope & Scope Chain  
-- [ ] Closures  
-- [ ] Understanding `this` in JavaScript  
+- [x] Functions (declaration, expression, arrow functions)  
+- [x] Execution Context (Call Stack)  
+- [x] Hoisting & Temporal Dead Zone  
+- [x] Scope & Scope Chain  
+- [x] Closures  
+- [x] Understanding `this` in JavaScript  
 
 </details>
 
 <details>
-<summary>📦 Objects & Data Structures</summary>
+<summary>📦 Objects & Data Structures - In Progress</summary>
 
 - [ ] Objects & Object Methods  
 - [ ] Arrays (map, filter, reduce, etc.)  
