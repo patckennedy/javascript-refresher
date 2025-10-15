@@ -6,7 +6,7 @@ Each file uses collapsible `<details>` sections so it’s easy to browse through
 ## 📂 Notes Index
 
 -   [01 - Core JavaScript Foundations](01-core-js-foundations.md)
--   02 - Functions & Execution _(coming soon)_
+-   [02 - Functions & Execution](02-functions-and-execution.md)
 -   03 - Objects & Data Structures _(coming soon)_
 -   04 - Debugging & Developer Tools _(coming soon)_
 -   05 - DOM & Browser APIs _(coming soon)_
