@@ -8,7 +8,22 @@
     </head>
     <body>
         <h1>Countdown Timer</h1>
+<div class="controls">
+      <label>
+        Seconds:
+        <input type="number" id="seconds" min="1" placeholder="e.g. 60"/>
+      </label>
 
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause" disabled>Pause</button>
+        <button id="reset" disabled>Reset</button>
+      </div>
+    </div>
+
+    <div id="display" class="display">00:00</div>
+    <p id="status" class="status" aria-live="polite"></p>
+  </main>
         <script src="script.js"></script>
     </body>
 </html>
