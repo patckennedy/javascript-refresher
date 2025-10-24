@@ -39,3 +39,52 @@ function tick() {
         }
     }
 }
+
+// Start
+startBtn.addEventListener("click", () => {
+  // If not started yet, initialize from input
+  if (!running && remaining === 0) {
+    const secs = parseInt(secondsInput.value, 10);
+    if (isNaN(secs) || secs <= 0) {
+      statusEl.textContent = "Enter a valid number of seconds.";
+      return;
+    }
+    remaining = secs;
+    statusEl.textContent = "";
+    statusEl.classList.remove("done");
+    updateDisplay();
+  }
+
+  if (!running && remaining > 0) {
+    running = true;
+    timerId = setInterval(tick, 1000);
+    setButtons();
+  }
+});
+
+// Pause
+pauseBtn.addEventListener("click", () => {
+  if (running) {
+    clearInterval(timerId);
+    timerId = null;
+    running = false;
+    statusEl.textContent = "Paused";
+    setButtons();
+  }
+});
+
+// Reset
+resetBtn.addEventListener("click", () => {
+  clearInterval(timerId);
+  timerId = null;
+  running = false;
+  remaining = 0;
+  updateDisplay();
+  statusEl.textContent = "";
+  statusEl.classList.remove("done");
+  setButtons();
+});
+
+// Keep UI in sync initially
+updateDisplay();
+setButtons();
