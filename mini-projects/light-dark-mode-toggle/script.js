@@ -9,3 +9,9 @@ toggleBtn.addEventListener('click', () => {
     const isDark = document.body.classList.contains('dark-mode');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
 });
+
+// On page load, check localStorage for saved theme
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+    document.body.classList.add('dark-mode');
+}
