@@ -6,6 +6,7 @@ It also remembers the user's theme preference using `localStorage`.
 ---
 
 ## 📁 Project Overview
+![Light/Dark Mode Preview](images/image.JPG)
 
 This mini project is part of my **JavaScript Refresher** practice series.  
 It focuses on **DOM manipulation**, **event handling**, and **class toggling** to apply different themes dynamically.
