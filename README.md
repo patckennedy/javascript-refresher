@@ -48,18 +48,18 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 </details>
 
 <details>
-<summary>📦 Objects & Data Structures - In Progress</summary>
+<summary>📦 Objects & Data Structures - (Completed)</summary>
 
-- [ ] Objects & Object Methods  
-- [ ] Arrays (map, filter, reduce, etc.)  
-- [ ] ES6 Classes & Prototypes  
-- [ ] JavaScript Modules (import/export)  
-- [ ] Map, Set, WeakMap, WeakSet (when & why to use)  
+- [x] Objects & Object Methods  
+- [x] Arrays (map, filter, reduce, etc.)  
+- [x] ES6 Classes & Prototypes  
+- [x] JavaScript Modules (import/export)  
+- [x] Map, Set, WeakMap, WeakSet (when & why to use)  
 
 </details>
 
 <details>
-<summary>🖥️ Debugging & Developer Tools</summary>
+<summary>🖥️ Debugging & Developer Tools - In Progress</summary>
 
 - [ ] Debugging with DevTools & VS Code  
 - [ ] Debugging Secrets & Best Practices  
