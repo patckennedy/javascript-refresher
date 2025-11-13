@@ -55,3 +55,33 @@ button:hover {
 }
 
 /* --- Themes --- */
+/* Sunny theme */
+.sunny-theme {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.sunny-theme .card {
+  background: #fffbeb;
+}
+
+/* Cloudy theme */
+.cloudy-theme {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.cloudy-theme .card {
+  background: #f9fafb;
+}
+
+/* Night theme */
+.night-theme {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.night-theme .card {
+  background: #0f172a;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.7);
+}
