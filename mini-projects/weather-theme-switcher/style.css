@@ -1,0 +1,57 @@
+/* Base setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: #f4f4f5;
+    color: #111827;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Centered container */
+.container {
+    max-width: 520px;
+    margin: 60px auto;
+    padding: 2px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: none;
+    background: #e5e7eb;
+    color: #111827;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #d4d4d8;
+}
+
+/* Weather card */
+.card {
+    padding: 24px 16px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.emoji {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+/* --- Themes --- */
