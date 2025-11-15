@@ -1,6 +1,6 @@
 # JavaScript Refresher
 
-![Progress](https://img.shields.io/badge/Progress-16%2F40-green)
+![Progress](https://img.shields.io/badge/Progress-18%2F40-green)
 
 This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
@@ -61,18 +61,18 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 <details>
 <summary>🖥️ Debugging & Developer Tools - In Progress</summary>
 
-- [ ] Debugging with DevTools & VS Code  
-- [ ] Debugging Secrets & Best Practices  
-- [ ] Error Handling in JavaScript  
+- [x] Debugging with DevTools & VS Code  
+- [x] Debugging Secrets & Best Practices  
+- [x] Error Handling in JavaScript  
 
 </details>
 
 <details>
 <summary>🌐 DOM & Browser APIs</summary>
 
-- [ ] Introduction to the DOM  
-- [ ] JavaScript Events  
-- [ ] Advanced DOM Tricks Every Dev Should Know  
+- [x] Introduction to the DOM  
+- [x] JavaScript Events  
+- [x] Advanced DOM Tricks Every Dev Should Know  
 - [ ] Web APIs (Geolocation, Clipboard, Notifications)  
 
 </details>
