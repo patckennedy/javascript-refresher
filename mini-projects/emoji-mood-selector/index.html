@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Emoji Mood Selector</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Emoji Mood Selector</h1>
+            <p class="subtitle">
+                Click a mood and the page will change to match it.
+            </p>
+
+            <div>
+                <button data-mood="happy">😊 Happy</button>
+                <button data-mood="calm">😌 Calm</button>
+                <button data-mood="energetic">⚡ Energetic</button>
+                <button data-mood="tired">😴 Tired</button>
+            </div>
+
+            <section class="card">
+                <div id="mood-emoji" class="emoji">😊</div>
+                <h2 id="mood-title">Happy</h2>
+                <p id="mood-text">
+                    Feeling light, cheerful, and positive. A great moment to
+                    enjoy the little things.
+                </p>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
