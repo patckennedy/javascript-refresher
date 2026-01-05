@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtitle {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: #9ca3af;
+}
+
+.card {
+    background: #020617;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
+
+    margin: 0 auto;
+    .card {
+        width: 100%;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#password-output {
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #1f2937;
+    background: #0b1220;
+    color: #e5e7eb;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #334155;
+    color: #e5e7eb;
+}
+
+button:hover {
+    background: #475569;
+}
+
+.primary {
+    width: 100%;
+    margin-top: 12px;
+    background: #2563eb;
+    color: #fff;
+}
+
+.primary:hover {
+    background: #1d4ed8;
+}
+
+.options {
+    display: grid;
+    gap: 10px;
+    margin: 10px 0 0;
+    text-align: left;
+    color: #cbd5e1;
+}
+
+.options input[type='number'] {
+    width: 90px;
+    margin-left: 6px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    background: #0b1220;
+    color: #e5e7eb;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.status {
+    margin-top: 10px;
+    min-height: 1em;
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
