@@ -73,19 +73,19 @@ This repository is my JavaScript refresher hub — the first step in my full-sta
 - [x] Introduction to the DOM  
 - [x] JavaScript Events  
 - [x] Advanced DOM Tricks Every Dev Should Know  
-- [ ] Web APIs (Geolocation, Clipboard, Notifications)  
+- [x] Web APIs (Geolocation, Clipboard, Notifications)  
 
 </details>
 
 <details>
 <summary>⏳ Asynchronous JavaScript</summary>
 
-- [ ] Callbacks & Asynchronous Programming  
-- [ ] Promises  
-- [ ] async/await  
-- [ ] fetch() & Working with APIs  
-- [ ] Common Mistakes with Promises & Async Code  
-- [ ] How the Event Loop Works (Microtasks & Macrotasks)  
+- [x] Callbacks & Asynchronous Programming  
+- [x] Promises  
+- [x] async/await  
+- [x] fetch() & Working with APIs  
+- [x] Common Mistakes with Promises & Async Code  
+- [x] How the Event Loop Works (Microtasks & Macrotasks)  
 
 </details>
 
