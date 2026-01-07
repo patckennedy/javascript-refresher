@@ -1,6 +1,6 @@
 # JavaScript Refresher
 
-![Progress](https://img.shields.io/badge/Progress-18%2F40-green)
+![Progress](https://img.shields.io/badge/Progress-25%2F40-green)
 
 This repository is my JavaScript refresher hub — the first step in my full-stack skill refresh. Here, I revisit and practice core JavaScript concepts to strengthen my foundation before continuing with React and Node.js refreshers, and eventually learning TypeScript.
 
