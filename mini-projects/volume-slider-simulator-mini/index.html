@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volume Slider Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <body>
+        <main class="container">
+            <h1>Volume Slider Simulator</h1>
+            <p class="subtitle">Move the slider to change the volume.</p>
+            <div class="card">
+                <div class="icon" id="volume-icon">🔉</div>
+                <p class="value" id="volume-value">50%</p>
+
+                <input
+                    id="volume-slider"
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    aria-label="Volume slider"
+                />
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
