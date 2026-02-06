@@ -40,4 +40,3 @@ random-gradient-generator-mini/
 ---
 
 ✨ A quick project to practice **DOM updates**, **randomization**, and **CSS styling with JavaScript**.
-
