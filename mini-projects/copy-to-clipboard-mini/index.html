@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copy to Clipboard Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Copy to Clipboard 🧾</h1>
+    <p class="subtitle">Paste your text, then click copy.</p>
+
+    <div class="card">
+      <textarea id="text-input" placeholder="Type or paste text here..."></textarea>
+
+      <div class="buttons">
+        <button id="copy-btn" type="button">Copy</button>
+        <button id="clear-btn" type="button">Clear</button>
+      </div>
+
+      <p id="status" class="status" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
