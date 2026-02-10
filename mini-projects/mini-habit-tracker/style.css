@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 6px;
+  margin-bottom: 16px;
+  color: #9ca3af;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.day {
+  padding: 10px 0;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  background: #0b1220;
+  color: #e5e7eb;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.day:hover {
+  background: #111b2e;
+}
+
+.day.done {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.streak {
+  margin: 10px 0 12px;
+  color: #cbd5e1;
+}
+
+.reset {
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #334155;
+  color: #e5e7eb;
+}
+
+.reset:hover {
+  background: #475569;
+}
+
+.status {
+  margin-top: 10px;
+  min-height: 1em;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
