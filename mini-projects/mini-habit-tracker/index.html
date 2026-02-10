@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mini Habit Tracker ✅</h1>
+    <p class="subtitle">Click a day to mark it complete.</p>
+
+    <div class="card">
+      <div class="days" id="days">
+        <button class="day" data-day="Mon" type="button">Mon</button>
+        <button class="day" data-day="Tue" type="button">Tue</button>
+        <button class="day" data-day="Wed" type="button">Wed</button>
+        <button class="day" data-day="Thu" type="button">Thu</button>
+        <button class="day" data-day="Fri" type="button">Fri</button>
+        <button class="day" data-day="Sat" type="button">Sat</button>
+        <button class="day" data-day="Sun" type="button">Sun</button>
+      </div>
+
+      <p class="streak">Streak: <span id="streak">0</span> days</p>
+
+      <button id="reset-btn" class="reset" type="button">Reset Week</button>
+      <p id="status" class="status" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
