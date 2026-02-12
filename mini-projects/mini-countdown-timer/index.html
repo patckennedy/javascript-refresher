@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Countdown Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Countdown Timer ⏳</h1>
+    <p class="subtitle">Select a future date to start the countdown.</p>
+
+    <div class="card">
+      <input id="date-input" type="datetime-local" />
+
+      <div class="display">
+        <div><span id="days">0</span> Days</div>
+        <div><span id="hours">0</span> Hours</div>
+        <div><span id="minutes">0</span> Minutes</div>
+      </div>
+
+      <button id="start-btn" type="button">Start Countdown</button>
+      <p id="status" class="status"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
