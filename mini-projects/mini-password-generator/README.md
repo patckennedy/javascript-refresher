@@ -7,24 +7,25 @@ Built as part of my **JavaScript Refresher** series to practice DOM manipulation
 
 ## 🚀 Features
 
--   Generate a random password with one click
--   Adjustable password length (6–24 characters)
--   Option to include:
-    -   Numbers
-    -   Symbols
--   Copy generated password to clipboard
--   Clean, centered UI with modern styling
+- Generate a random password with one click
+- Adjustable password length (6–24 characters)
+- Option to include:
+    - Numbers
+    - Symbols
+- Copy generated password to clipboard
+- Clean, centered UI with modern styling
+- Clean, centered UI with modern styling
 
 ---
 
 ## 🧠 What I Practiced
 
--   Selecting DOM elements with `getElementById`
--   Handling click events with `addEventListener`
--   Building strings using loops and random values
--   Basic form validation and user feedback
--   Using the Clipboard API to copy text
--   Structuring a small project with HTML, CSS, and JavaScript
+- Selecting DOM elements with `getElementById`
+- Handling click events with `addEventListener`
+- Building strings using loops and random values
+- Basic form validation and user feedback
+- Using the Clipboard API with `async/await`
+- Structuring a small project with HTML, CSS, and JavaScript
 
 ---
 
@@ -38,18 +39,13 @@ mini-password-generator/
 
 ---
 
-
----
-
 ## 💡 How It Works
 
-1. Choose a password length  
-2. Select whether to include numbers and/or symbols  
-3. Click **Generate Password**  
-4. Click **Copy** to copy the password to your clipboard  
+1. Choose a password length
+2. Select whether to include numbers and/or symbols
+3. Click **Generate Password**
+4. Click **Copy** to copy the password to your clipboard
 
 ---
 
 ✨ A focused mini project for practicing **JavaScript fundamentals** and building confidence with small, complete features.
-
-
