@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,14 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* .container {
 
-    width: 100%;
-    max-width: 520px;
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-} */
 
 .container {
     width: min(520px, 92vw);
@@ -40,11 +34,8 @@ body {
     border-radius: 16px;
     padding: 18px;
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
-
     margin: 0 auto;
-    .card {
-        width: 100%;
-    }
+    width: 100%;
 }
 
 .row {
@@ -70,6 +61,7 @@ button {
     cursor: pointer;
     background: #334155;
     color: #e5e7eb;
+    transition: background 0.2s ease;
 }
 
 button:hover {
