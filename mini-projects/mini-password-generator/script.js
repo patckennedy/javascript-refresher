@@ -31,6 +31,7 @@ function generatePassword(length, chars) {
 }
 
 function handleGenerate() {
+    statusEl.textContent = '';
     const length = Number(lengthInput.value);
     const chars = buildCharacterSet();
 
