@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -9,7 +9,15 @@
     <body>
         <main class="container">
             <h1>Character Counter</h1>
-            <textarea id="textInput" placeholder="Start typing..."></textarea>
+
+            <label for="textInput">Your Text:</label>
+
+            <textarea
+                id="textInput"
+                placeholder="Start typing..."
+                maxlength="100"
+            ></textarea>
+
             <p id="counter">0 / 100</p>
         </main>
         <script src="script.js" defer></script>
