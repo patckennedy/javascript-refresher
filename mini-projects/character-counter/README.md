@@ -12,10 +12,10 @@ This project is part of my **JavaScript Refresher** series.
 
 It focuses on strengthening core front-end fundamentals:
 
-- DOM manipulation  
-- Event handling  
-- Conditional logic  
-- Dynamic UI updates  
+- DOM manipulation
+- Event handling
+- Conditional logic
+- Dynamic UI updates
 
 The project is intentionally small but structured like real-world code.
 
