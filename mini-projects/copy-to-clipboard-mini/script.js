@@ -2,6 +2,7 @@ const textInput = document.getElementById('text-input');
 const copyBtn = document.getElementById('copy-btn');
 const clearBtn = document.getElementById('clear-btn');
 const statusEl = document.getElementById('status');
+copyBtn.disabled = true;
 
 async function copyText() {
     const text = textInput.value.trim();
@@ -26,3 +27,11 @@ function clearText() {
 
 copyBtn.addEventListener('click', copyText);
 clearBtn.addEventListener('click', clearText);
+
+textInput.addEventListener('input', () => {
+    const hasText = textInput.value.trim().length > 0;
+    copyBtn.disabled = !hasText;
+});
+
+
+
