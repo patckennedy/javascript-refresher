@@ -15,14 +15,26 @@ async function copyText() {
     try {
         await navigator.clipboard.writeText(text);
         statusEl.textContent = 'Copied to clipboard!';
+
+        setTimeout(() => {
+            statusEl.textContent = '';
+        }, 2000);
     } catch (error) {
         statusEl.textContent = 'Copy failed. Try again.';
+
+        setTimeout(() => {
+            statusEl.textContent = '';
+        }, 2000);
     }
 }
 
 function clearText() {
     textInput.value = '';
     statusEl.textContent = 'Text cleared.';
+
+    setTimeout(() => {
+        statusEl.textContent = '';
+    }, 2000);
 }
 
 copyBtn.addEventListener('click', copyText);
@@ -32,6 +44,3 @@ textInput.addEventListener('input', () => {
     const hasText = textInput.value.trim().length > 0;
     copyBtn.disabled = !hasText;
 });
-
-
-
