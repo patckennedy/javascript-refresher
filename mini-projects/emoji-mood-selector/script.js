@@ -43,12 +43,12 @@ function setMood(name) {
     moodText.textContent = mood.text;
 
     // Remove any existing mood classes from body
-    document.body.classList.remove(
-        'mood-happy',
-        'mood-calm',
-        'mood-energetic',
-        'mood-tired'
-    );
+    // Remove any existing mood classes dynamically
+    document.body.classList.forEach((className) => {
+        if (className.startsWith('mood-')) {
+            document.body.classList.remove(className);
+        }
+    });
 
     // Add the new mood class
     document.body.classList.add(mood.bodyClass);
