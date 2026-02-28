@@ -57,7 +57,14 @@ function setMood(name) {
 // Add click listeners to each button
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
-        const moodName = button.dataset.mood; // "happy", "calm", etc.
+        const moodName = button.dataset.mood;
+
+        // Remove active class from all buttons
+        buttons.forEach((btn) => btn.classList.remove('active'));
+
+        // Add active class to clicked button
+        button.classList.add('active');
+
         setMood(moodName);
     });
 });
