@@ -7,7 +7,26 @@ const evenOutput = document.getElementById('even-output');
 const oddOutput = document.getElementById('odd-output');
 
 button.addEventListener('click', () => {
-    let numbers = input.value.split(',').map(Number);
+    let rawInput = input.value.trim();
+
+    // Handle empty input
+    if (rawInput === '') {
+        evenOutput.textContent = '';
+        oddOutput.textContent = '';
+        return;
+    }
+
+    let numbers;
+
+    // Support both comma-separated and continuous input
+    if (rawInput.includes(',')) {
+        numbers = rawInput.split(',').map((num) => Number(num.trim()));
+    } else {
+        numbers = rawInput.split('').map((num) => Number(num));
+    }
+
+    // Remove invalid values
+    numbers = numbers.filter((n) => !isNaN(n));
 
     let evenNumbers = [];
     let oddNumbers = [];
@@ -20,6 +39,7 @@ button.addEventListener('click', () => {
         }
     }
 
+    // Display results
     evenOutput.textContent = evenNumbers.join(', ');
     oddOutput.textContent = oddNumbers.join(', ');
 });
