@@ -1,21 +1,25 @@
 console.log('Script loaded');
 
-let evenSum = 0;
-let oddSum = 0;
-let evenCount = 0;
-let oddCount = 0;
+// Select elements
+const input = document.getElementById('number-input');
+const button = document.getElementById('analyze-btn');
+const evenOutput = document.getElementById('even-output');
+const oddOutput = document.getElementById('odd-output');
 
-for (let n = 1; n <= 50; n++) {
-    if (n % 2 === 0) {
-        evenSum += n;
-        evenCount++;
-    } else {
-        oddSum += n;
-        oddCount++;
+button.addEventListener('click', () => {
+    let numbers = input.value.split(',').map(Number);
+
+    let evenNumbers = [];
+    let oddNumbers = [];
+
+    for (let n of numbers) {
+        if (n % 2 === 0) {
+            evenNumbers.push(n);
+        } else {
+            oddNumbers.push(n);
+        }
     }
-}
 
-console.log('Sum of evens:', evenSum);
-console.log('Sum of odds:', oddSum);
-console.log('Event count:', evenCount);
-console.log('Odd count:', oddCount);
+    evenOutput.textContent = evenNumbers.join(', ');
+    oddOutput.textContent = oddNumbers.join(', ');
+});
