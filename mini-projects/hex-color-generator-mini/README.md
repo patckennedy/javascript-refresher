@@ -15,6 +15,7 @@ This project is part of my **JavaScript Refresher** series.
 -   Clean, centered card layout
 -   Beginner-friendly code structure
 -   Automatically displays a random color on page load
+-   Responsive and clean design
 
 ---
 
