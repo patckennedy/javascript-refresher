@@ -15,6 +15,7 @@ body {
 
 .container {
     text-align: center;
+    max-width: 400px;
 }
 
 h1 {
@@ -43,6 +44,8 @@ h1 {
     margin-bottom: 12px;
     border: 1px solid #1f2937;
     background: #000000;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .color-label {
@@ -55,6 +58,7 @@ h1 {
     font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 button {
@@ -65,8 +69,13 @@ button {
     color: #f9fafb;
     cursor: pointer;
     font-size: 0.95rem;
+    transition: background 0.2s ease;
 }
 
 button:hover {
     background: #1d4ed8;
+}
+
+button:active {
+  transform: scale(0.97);
 }
