@@ -34,6 +34,7 @@ const moods = {
 
 // Function to update the UI based on a mood name
 function setMood(name) {
+    localStorage.setItem('selectedMood', moodName);
     const mood = moods[name];
     if (!mood) return;
 
