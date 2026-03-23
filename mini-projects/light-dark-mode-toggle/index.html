@@ -1,15 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Light Dark Mode Togglet</title>
+        <title>Light Dark Mode Toggle</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <main class="container">
             <h1>☀️ Light / 🌙 Dark Mode</h1>
-            <button id="toggle-btn">Toggle Theme</button>
+            <button id="toggle-btn" aria-label="Toggle light and dark mode">
+                Toggle Theme
+            </button>
+            <p id="mode-text">Current Mode: Light</p>
             <p>Click the button to switch between light and dark mode.</p>
         </main>
         <script src="script.js"></script>
