@@ -1,17 +1,36 @@
-// Select the toggle button
-const toggleBtn = document.getElementById('toggle-btn');
+document.addEventListener('DOMContentLoaded', () => {
+    // Select the toggle button
+    const toggleBtn = document.getElementById('toggle-btn');
 
-// When the button is clicked, toggle the dark mode class on <body>
-toggleBtn.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
+    const body = document.body;
+    const modeText = document.getElementById('mode-text');
 
-    // Save the user's preference
-    const isDark = document.body.classList.contains('dark-mode');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    function updateUI(isDark) {
+        toggleBtn.textContent = isDark
+            ? 'Switch to Light ☀️'
+            : 'Switch to Dark 🌙';
+
+        if (modeText) {
+            modeText.textContent = isDark
+                ? 'Current Mode: Dark'
+                : 'Current Mode: Light';
+        }
+    }
+    toggleBtn.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+
+        const isDark = body.classList.contains('dark-mode');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+        updateUI(isDark);
+    });
+
+    const savedTheme = localStorage.getItem('theme');
+    const isDark = savedTheme === 'dark';
+
+    if (isDark) {
+        body.classList.add('dark-mode');
+    }
+
+    updateUI(isDark);
 });
-
-// On page load, check localStorage for saved theme
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'dark') {
-    document.body.classList.add('dark-mode');
-}
