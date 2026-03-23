@@ -17,8 +17,9 @@ It focuses on **DOM manipulation**, **event handling**, and **class toggling** t
 
 - ✅ Toggle between light and dark themes  
 - ✅ Smooth transition between colors  
-- ✅ Saves the user’s preference to `localStorage`  
+- ✅ Saves the user’s preference using `localStorage`  
 - ✅ Automatically restores the theme on page load  
+- ✅ Dynamic UI updates (button text + current mode indicator)  
 
 ---
 
@@ -28,24 +29,28 @@ It focuses on **DOM manipulation**, **event handling**, and **class toggling** t
 - Using `classList.toggle()` to apply or remove CSS classes  
 - Handling click events with `addEventListener()`  
 - Storing and retrieving data from `localStorage`  
-- Creating smooth color transitions with CSS  
+- Creating reusable functions to update the UI  
+- Syncing application state with the user interface  
 
 ---
+
 ## 💡 How to Run
 
-1. Clone or download this folder.  
-2. Open `index.html` in your browser.  
-3. Click the **Toggle Theme** button to switch between modes.  
-4. Refresh the page — your selected theme will be remembered!
+1. Clone or download this folder  
+2. Open `index.html` in your browser  
+3. Click the **Toggle Theme** button to switch between modes  
+4. Refresh the page — your selected theme will be remembered  
 
 ---
+
 ## 🔁 Possible Enhancements
 
-- Add a toggle **switch icon** instead of a button  
-- Add a third “system” mode to match OS theme  
-- Use CSS variables for easier color management  
+- Add a toggle **switch UI** instead of a button  
+- Add a third “system” mode (detect OS theme)  
+- Use CSS variables for easier theme customization  
+- Add icons/animations for smoother transitions  
 
 ---
 
 ✨ **Practice Focus:**  
-This project reinforces **DOM selection**, **events**, **CSS transitions**, and **persistent state management** — perfect for building good habits with small, clean commits.
+This project reinforces **DOM manipulation**, **event handling**, **CSS transitions**, and **persistent state management**, while introducing **UI state synchronization** and **clean code structure**.
