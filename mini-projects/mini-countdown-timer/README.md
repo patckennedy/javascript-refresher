@@ -13,19 +13,23 @@ Built as part of my **JavaScript Refresher** series to practice working with tim
     - Days
     - Hours
     - Minutes
+    - Seconds (optional enhancement)
 - Live updates every second using `setInterval`
-- User-friendly status messages
-- Clean, centered UI
+- Prevents selecting past dates (basic validation)
+- User-friendly status messages (running, error, completed)
+- Clean, centered UI with modern styling
 
 ---
 
 ## 🧠 What I Practiced
 
-- Working with JavaScript `Date` objects
-- Converting milliseconds into days/hours/minutes
-- Updating the DOM dynamically
-- Using `setInterval` and `clearInterval`
-- Basic validation and state control (stopping/restarting timers)
+- Working with JavaScript `Date` objects and timestamps
+- Converting milliseconds into days, hours, minutes, and seconds
+- Using modulus (`%`) to extract remaining time values
+- Updating the DOM dynamically in real time
+- Using `setInterval` and `clearInterval` to control timers
+- Validating user input before running logic
+- Managing application state (start, stop, reset behavior)
 
 ---
 
@@ -38,6 +42,17 @@ mini-countdown-timer/
 ├─ style.css # Layout and styling
 └─ script.js # Countdown logic
 ```
+
+---
+
+## 💡 Key Learning
+
+This project helped reinforce how time-based logic works in JavaScript, which is essential for:
+
+- Real-time applications
+- Scheduling systems
+- Automation workflows
+- Building interactive UI features
 
 ---
 
