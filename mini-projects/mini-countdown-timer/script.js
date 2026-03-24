@@ -6,19 +6,29 @@ const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
 
+// OPTIONAL: only works if you added seconds in HTML (safe fallback)
+const secondsEl = document.getElementById('seconds');
+
 let timerId = null;
 
 function updateDisplay(totalMs) {
+    const totalSeconds = Math.floor(totalMs / 1000);
     const totalMinutes = Math.floor(totalMs / 60000);
     const totalHours = Math.floor(totalMs / 3600000);
     const totalDays = Math.floor(totalMs / 86400000);
 
+    const seconds = totalSeconds % 60;
     const hours = totalHours % 24;
     const minutes = totalMinutes % 60;
 
     daysEl.textContent = totalDays;
     hoursEl.textContent = hours;
     minutesEl.textContent = minutes;
+
+    // Safe: only runs if seconds element exists
+    if (secondsEl) {
+        secondsEl.textContent = seconds;
+    }
 }
 
 function stopTimer() {
@@ -43,7 +53,17 @@ function startCountdown() {
         return;
     }
 
+    // ✅ NEW: prevent past dates
+    const now = Date.now();
+    if (targetTime <= now) {
+        statusEl.textContent = 'Please select a future date.';
+        return;
+    }
+
     stopTimer();
+
+    // ✅ MOVED: set once (not every second)
+    statusEl.textContent = 'Countdown running...';
 
     function tick() {
         const now = Date.now();
@@ -51,12 +71,12 @@ function startCountdown() {
 
         if (diff <= 0) {
             updateDisplay(0);
-            statusEl.textContent = stopTimer();
+            stopTimer();
+            statusEl.textContent = 'Time is up!';
             return;
         }
 
         updateDisplay(diff);
-        statusEl.textContent = 'Countdown running...';
     }
 
     tick();
