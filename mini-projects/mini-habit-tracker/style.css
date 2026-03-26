@@ -57,11 +57,25 @@ body {
   background: #111b2e;
 }
 
+.day:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.day:active {
+  transform: scale(0.97);
+}
+
 .day.done {
   background: #2563eb;
   border-color: #2563eb;
   color: #fff;
 }
+
+.day.current {
+  border-color: #f59e0b;
+}
+
 
 .streak {
   margin: 10px 0 12px;
