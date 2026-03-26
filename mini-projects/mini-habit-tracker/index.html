@@ -13,7 +13,7 @@
 
     <div class="card">
       <div class="days" id="days">
-        <button class="day" data-day="Mon" type="button">Mon</button>
+        <button class="day" data-day="Mon" aria-pressed="false" type="button">Mon</button>
         <button class="day" data-day="Tue" type="button">Tue</button>
         <button class="day" data-day="Wed" type="button">Wed</button>
         <button class="day" data-day="Thu" type="button">Thu</button>
@@ -25,7 +25,7 @@
       <p class="streak">Streak: <span id="streak">0</span> days</p>
 
       <button id="reset-btn" class="reset" type="button">Reset Week</button>
-      <p id="status" class="status" aria-live="polite"></p>
+      <p id="status" class="status" aria-live="polite">No days completed yet.</p>
     </div>
   </main>
 
