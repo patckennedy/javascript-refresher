@@ -5,6 +5,8 @@ const statusEl = document.getElementById('status');
 
 const STORAGE_KEY = 'mini-habit-tracker-days';
 
+
+
 // Load saved state (array of day names)
 function loadSavedDays() {
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -37,6 +39,20 @@ function applySavedDays(savedDays) {
 
     updateStreak();
 }
+
+function highlightCurrentDay() {
+    const todayIndex = new Date().getDay();
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const today = days[todayIndex];
+
+    document.querySelectorAll('.day').forEach((btn) => {
+        if (btn.dataset.day === today) {
+            btn.classList.add('current');
+        }
+    });
+}
+
+
 
 // Toggle day done/undone
 function toggleDay(button) {
@@ -85,3 +101,5 @@ resetBtn.addEventListener('click', () => {
 // Load saved progress on page load
 const savedDays = loadSavedDays();
 applySavedDays(savedDays);
+
+highlightCurrentDay();
