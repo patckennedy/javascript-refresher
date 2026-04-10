@@ -11,11 +11,19 @@
             <h1>Mini Stopwatch ⏱️</h1>
             <p class="subtitle">Start, stop, and reset the timer.</p>
 
-            <div class="display" id="time">00:00.00</div>
+            <!-- Accessibility improvement -->
+            <div 
+                class="display" 
+                id="time" 
+                role="timer" 
+                aria-live="polite"
+            >
+                00:00.00
+            </div>
 
             <div class="controls">
                 <button id="start-btn" type="button">Start</button>
-                <button id="stop-btn" type="button">Stop</button>
+                <button id="stop-btn" type="button" disabled>Stop</button>
                 <button id="reset-btn" type="button">Reset</button>
             </div>
         </main>
