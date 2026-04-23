@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Notes Pad Mini</title>
-         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <main class="container">
@@ -14,19 +14,23 @@
                 refresh.
             </p>
 
+            <label for="note-input" class="visually-hidden">Your Note</label>
+
             <textarea
                 id="note-input"
                 placeholder="Write your note here..."
+                rows="6"
+                maxlength="500"
             ></textarea>
 
             <div class="buttons">
-      <button id="save-btn" type="button">Save Note</button>
-      <button id="clear-btn" type="button">Clear Note</button>
-    </div>
+                <button id="save-btn" type="button">Save Note</button>
+                <button id="clear-btn" type="button">Clear Note</button>
+            </div>
 
-    <p id="status" class="status" aria-live="polite"></p>
-
+            <p id="status" class="status" aria-live="polite"></p>
         </main>
+
         <script src="script.js"></script>
     </body>
 </html>
