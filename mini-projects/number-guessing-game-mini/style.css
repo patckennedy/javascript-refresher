@@ -25,6 +25,7 @@ body {
     margin-top: 6px;
     margin-bottom: 16px;
     color: #9ca3af;
+    font-size: 0.95rem;
 }
 
 .card {
@@ -39,6 +40,7 @@ label {
     display: block;
     margin-bottom: 6px;
     color: #cbd5e1;
+    font-size: 0.9rem;
 }
 
 input[type='number'] {
@@ -50,6 +52,28 @@ input[type='number'] {
     color: #e5e7eb;
     font-size: 1rem;
     margin-bottom: 12px;
+    outline: none;
+    transition:
+        border 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+/* Focus state */
+input[type='number']:focus {
+    border-color: #2fa4a9;
+    box-shadow: 0 0 0 2px rgba(47, 164, 169, 0.3);
+}
+
+/* Remove arrows (Chrome, Safari, Edge) */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows (Firefox) */
+input[type='number'] {
+    -moz-appearance: textfield;
 }
 
 .buttons {
@@ -67,14 +91,30 @@ button {
     background: #334155;
     color: #e5e7eb;
     font-size: 0.95rem;
+    transition:
+        background 0.2s ease,
+        transform 0.1s ease;
 }
 
+/* Hover */
 button:hover {
     background: #475569;
+}
+
+/* Click effect */
+button:active {
+    transform: scale(0.97);
+}
+
+/* Disabled state (for future JS use) */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .message {
     min-height: 1.2em;
     color: #9ca3af;
     font-size: 0.95rem;
+    transition: color 0.2s ease;
 }
