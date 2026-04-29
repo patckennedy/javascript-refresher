@@ -21,10 +21,16 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 .subtitle {
   margin-top: 6px;
   margin-bottom: 16px;
   color: #9ca3af;
+  font-size: 0.9rem;
 }
 
 .card {
@@ -36,10 +42,13 @@ body {
 }
 
 .gradient-box {
-  height: 120px;
+  height: 140px;
   border-radius: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   background: linear-gradient(135deg, #6366f1, #22d3ee);
+
+  /* NEW: subtle polish */
+  transition: all 0.3s ease;
 }
 
 .code {
@@ -57,8 +66,16 @@ button {
   background: #2563eb;
   color: #fff;
   font-size: 0.95rem;
+
+  /* NEW */
+  transition: all 0.2s ease;
 }
 
 button:hover {
   background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.97);
 }
