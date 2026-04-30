@@ -11,15 +11,16 @@
             <h1>Random Quote Generator</h1>
             <p class="subtitle">Click the button to get a new quote.</p>
 
-            <section class="card">
-                <p id="quote-text" class="quote">
-                    “The best time to start was yesterday. The next best time is
-                    now.”
-                </p>
+            <section class="card" aria-live="polite">
+                <blockquote id="quote-text" class="quote">
+                    “The best time to start was yesterday. The next best time is now.”
+                </blockquote>
                 <p id="quote-author" class="author">— Unknown</p>
             </section>
 
-            <button id="new-quote-btn" type="button">New Quote</button>
+            <button id="new-quote-btn" type="button">
+                Generate New Quote
+            </button>
         </main>
 
         <script src="script.js"></script>
