@@ -1,3 +1,13 @@
+:root {
+  --bg-main: #0f172a;
+  --bg-card: #020617;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border: #1f2937;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,23 +15,25 @@
 body {
   margin: 0;
   font-family: system-ui, Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
+  background: var(--bg-main);
+  color: var(--text-main);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
+/* Layout */
 .container {
   max-width: 520px;
   padding: 24px 20px 20px;
   text-align: center;
-  background: #020617;
+  background: var(--bg-card);
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
 }
 
+/* Typography */
 h1 {
   margin: 0 0 4px;
   font-size: 1.4rem;
@@ -29,16 +41,8 @@ h1 {
 
 .subtitle {
   margin: 0 0 16px;
-  color: #9ca3af;
+  color: var(--text-muted);
   font-size: 0.95rem;
-}
-
-.card {
-  background: #020617;
-  border-radius: 12px;
-  padding: 20px 16px;
-  margin-bottom: 16px;
-  border: 1px solid #1f2937;
 }
 
 .quote {
@@ -49,20 +53,35 @@ h1 {
 
 .author {
   margin: 0;
-  color: #9ca3af;
+  color: var(--text-muted);
   font-style: italic;
 }
 
+/* Card */
+.card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 20px 16px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+
+/* Button */
 button {
   padding: 10px 18px;
   border-radius: 999px;
   border: none;
-  background: #2563eb;
+  background: var(--primary);
   color: #f9fafb;
   cursor: pointer;
   font-size: 0.95rem;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
 button:hover {
-  background: #1d4ed8;
+  background: var(--primary-hover);
+}
+
+button:active {
+  transform: scale(0.97);
 }
