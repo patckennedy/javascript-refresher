@@ -18,9 +18,10 @@ body {
     text-align: center;
     max-width: 420px;
     width: 100%;
+    padding: 20px;
 }
 
-subtitle {
+.subtitle {
     margin-bottom: 20px;
     color: #9ca3af;
 }
@@ -32,6 +33,8 @@ subtitle {
     background: rgb(128, 128, 128);
     margin-bottom: 20px;
     border: 1px solid #1f2937;
+
+    transition: background 0.2s ease;
 }
 
 .controls {
