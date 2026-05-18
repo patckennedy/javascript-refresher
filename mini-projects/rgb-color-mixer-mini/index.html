@@ -1,20 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>RBG Color Mixer</title>
-        <link rel="stylesheet" href="style.css">
+        <title>RGB Color Mixer</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
+
     <body>
         <main class="container">
             <h1>RGB Color Mixer</h1>
+
             <p class="subtitle">Move the sliders to mix your color.</p>
+
             <div class="preview" id="preview"></div>
 
             <div class="controls">
                 <label>
                     <span>Red</span>
+
                     <input
                         type="range"
                         id="red"
@@ -26,6 +30,7 @@
 
                 <label>
                     <span>Green</span>
+
                     <input
                         type="range"
                         id="green"
@@ -37,6 +42,7 @@
 
                 <label>
                     <span>Blue</span>
+
                     <input
                         type="range"
                         id="blue"
@@ -49,6 +55,7 @@
 
             <p id="color-code" class="color-code">rgb(128, 128, 128)</p>
         </main>
+
         <script src="script.js"></script>
     </body>
 </html>
