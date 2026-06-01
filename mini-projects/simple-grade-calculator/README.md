@@ -1,25 +1,67 @@
-# 📝 Simple Grade Calculator
+# 🎓 Simple Grade Calculator (Mini Project)
 
-A small JavaScript practice project that calculates a student’s grade based on their score.  
-This project reinforces **conditionals, comparison operators, and basic logic flow**.  
+A simple interactive JavaScript project that allows users to enter a score and instantly receive a letter grade based on standard grading rules.
 
----
-
-## 📝 Concepts Used
-- Conditionals (`if`, `else if`, `else`)  
-- Comparison operators (`>=`, `<`)  
-- Variables to store user scores  
-- String concatenation for output  
+This mini project is part of my **JavaScript Refresher** series.
 
 ---
 
-## 🚀 How to Run
-1. Open `index.html` in your browser (or run with Live Server in VS Code).  
-2. Enter a test score in the script (or via `prompt()` if added).  
-3. Check the result in the console (`F12 → Console`) to see the assigned grade.  
+## 🚀 Features
+
+- Enter a score between 0 and 100
+- Calculate grades with a button click
+- Displays letter grades (A, B, C, D, F)
+- Input validation for invalid scores
+- Instant result display
+- Clean and responsive centered layout
+- Beginner-friendly JavaScript logic
 
 ---
 
-## 📌 Notes
-This is a **practice mini-project** — not a portfolio piece.  
-Its main purpose is to **practice conditional logic** and translating rules into code.
+## 🧠 What I Practiced
+
+- Selecting DOM elements with `getElementById()`
+- Handling button click events with `addEventListener()`
+- Reading user input values
+- Converting strings to numbers with `Number()`
+- Validating user input with `isNaN()`
+- Using conditional statements (`if`, `else if`, `else`)
+- Updating page content dynamically with `textContent`
+- Using template literals for dynamic output
+- Building responsive layouts with Flexbox
+
+---
+
+## 📂 File Structure
+
+```bash
+simple-grade-calculator/
+│
+├─ index.html   # Page structure and user input
+├─ style.css    # Layout, spacing, and styling
+└─ script.js    # Grade calculation and validation logic
+```
+
+---
+
+## 💡 How to Use
+
+1. Open **index.html** in your browser
+2. Enter a score between 0 and 100
+3. Click the **Calculate Grade** button
+4. View the calculated letter grade instantly
+
+---
+
+## 🔥 Future Improvements
+
+- Display score percentage with the grade
+- Add grade color indicators (A = green, F = red)
+- Calculate grades automatically while typing
+- Add Enter key support
+- Show motivational feedback messages
+- Track grade history using localStorage
+
+---
+
+✨ A beginner-friendly mini project to practice **DOM manipulation**, **event handling**, **user input validation**, **conditional logic**, and **dynamic UI updates with JavaScript**.
