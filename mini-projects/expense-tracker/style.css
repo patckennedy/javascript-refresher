@@ -1,0 +1,139 @@
+/* ===========================
+   Global Styles
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* ===========================
+   Main Container
+=========================== */
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* ===========================
+   Expense Form
+=========================== */
+
+.expense-form {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* ===========================
+   Expense List
+=========================== */
+
+.expense-list h2 {
+    margin-bottom: 15px;
+}
+
+#expenseList {
+    list-style: none;
+}
+
+#expenseList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* ===========================
+   Total Section
+=========================== */
+
+.total-section {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.total-section h2 {
+    font-size: 1.3rem;
+}
+
+#totalAmount {
+    color: #4CAF50;
+    font-weight: bold;
+}
