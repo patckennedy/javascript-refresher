@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple character case converter built with HTML, CSS, and JavaScript.">
+    <title>Character Case Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="converter">
+        <h1>Character Case Converter</h1>
+        <p class="instructions">
+            Enter some text below and choose how you want to convert it.
+        </p>
+
+        <div class="converter-box">
+            <label for="text-input">Enter your text</label>
+
+            <textarea
+                id="text-input"
+                placeholder="Type or paste your text here..."
+                rows="8"
+            ></textarea>
+
+            <div class="button-group">
+                <button id="uppercase-btn" type="button">
+                    UPPERCASE
+                </button>
+
+                <button id="lowercase-btn" type="button">
+                    lowercase
+                </button>
+
+                <button id="capitalize-btn" type="button">
+                    Capitalize Words
+                </button>
+
+                <button id="clear-btn" type="button">
+                    Clear
+                </button>
+            </div>
+
+            <div class="output-section">
+                <h2>Converted Text</h2>
+                <p id="output-text">
+                    Your converted text will appear here.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
